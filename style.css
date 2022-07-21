@@ -87,3 +87,56 @@ footer{
     height: auto;
     max-height: 100vh;
 }
+
+/* about-page */
+
+.content{
+    margin-top: 40px;
+}
+
+.intro-para a{
+    color: red;
+}
+
+.intro-para p{
+    font-size: 18px;
+    text-align: left;
+    max-width: 900px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.tech-stack-container h1{
+    margin: 40px 0;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.tech-stack-box{
+    display: flex;
+    align-items: center;
+    
+}
+
+.tech-stack{
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    height: 270px;
+    max-width: 200px;
+    padding: 6px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tech-stack img{
+    width: 180px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.tech-stack p{
+    margin-top: 23px;
+    font-size: 20px;
+}
