@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.left-side-header{
+    font-size: 15px;
+}
+
+.right-side-header{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.right-side-header ul{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.right-side-header a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.intro-paragraph{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.projects-header{
+    font-size: 18px;
+    background-color: red;
+    width: 100px;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.intro-paragraph h2{
+    font-size: 48px;
+}
+
+.intro-paragraph p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+b{
+    color: red;
+}
