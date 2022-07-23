@@ -21,6 +21,11 @@ body{
     font-size: 15px;
 }
 
+.left-side-header a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 .right-side-header{
     display: flex;
     gap: 30px;
@@ -91,7 +96,7 @@ footer{
 /* about-page */
 
 .content{
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .intro-para a{
