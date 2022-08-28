@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 160px;
+    align-items: center;
+}
+
+.right-header-links ul{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.right-header-links a{
+    text-decoration: none;
+}
+
+.right-header-links a:hover{
+    text-decoration: underline;
+}
