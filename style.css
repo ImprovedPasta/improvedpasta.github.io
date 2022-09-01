@@ -5,7 +5,9 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+    background: #1F2937;
+    color: #F9FAF8;
 }
 
 header{
@@ -17,7 +19,7 @@ header{
 
 .left-header-logo a{
     text-decoration: none;
-    color: black;
+    color: #F9FAF8;
 }
 
 .right-header-links ul{
@@ -30,17 +32,19 @@ header{
 
 .right-header-links a{
     text-decoration: none;
+    color: #F9FAF8;
 }
 
 .header-github,
 .header-github a{
-    background-color: gray;
+    background-color: red;
     height: 50px;
     width: 100px;
     border: 1px;
-    color: white;
+    color: #F9FAF8;
     border-radius: 6px;
     font-size: 16px;
+
 }
 
 .right-header-links a:hover{
@@ -71,56 +75,144 @@ footer{
 .project-showcase-row-1{
     display: flex;
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 100px;
     margin-top: 100px;
 }
 
 .project-showcase-row-2{
     display: flex;
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 100px;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.number-guessing-game,
-.my-linux-setup,
-.my-personal-website,
-.landing-page{
-    border: 3px solid cadetblue;
-    border-radius: 5px;
-    height: 350px;
-    width: 400px;
-    padding: 10px 20px;
+/* .number-guessing-game */
+.number-guessing-game{
+    border: 2px red solid;
+    height: 400px;
+    width: 600px;
+    padding: 30px;
+    font-size: 20px;
+    padding-top: 202px;
+    border-radius: 8px;
 }
 
-.number-guessing-game h3,
-.my-linux-setup h3,
-.my-personal-website h3,
-.landing-page h3{
-    padding-top: 150px;
+.number-guessing-game h3{
     text-decoration: underline;
 }
 
-.number-guessing-game ul,
-.my-linux-setup ul,
-.my-personal-website ul,
-.landing-page ul{
-    padding-top: 20px;
+.number-guessing-game ul{
     list-style-type: none;
+    padding-top: 20px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.number-guessing-game button{
+    margin-top: 20px;
+}
+
+/* my-linux-setup */
+.my-linux-setup{
+    border: 2px red solid;
+    height: 400px;
+    width: 600px;
+    padding: 30px;
+    font-size: 20px;
+    padding-top: 202px;
+    border-radius: 8px;
+}
+
+.my-linux-setup h3{
+    text-decoration: underline;
+}
+
+.my-linux-setup ul{
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.my-linux-setup button{
+    margin-top: 20px;
+}
+
+/* my-perosonal-website */
+.my-personal-website{
+    border: 2px red solid;
+    height: 400px;
+    width: 600px;
+    padding: 30px;
+    font-size: 20px;
+    padding-top: 202px;
+    border-radius: 8px;
+}
+
+.my-personal-website h3{
+    text-decoration: underline;
+}
+
+.my-personal-website ul{
+    list-style-type: none;
+    padding-top: 20px ;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.my-personal-website button{
+    margin-top: 20px;
+}
+
+/* landing-page */
+.landing-page{
+    border: 2px red solid;
+    height: 400px;
+    width: 600px;
+    padding: 30px;
+    font-size: 20px;
+    padding-top: 202px;
+    border-radius: 8px;
+}
+
+.landing-page h3{
+    text-decoration: underline;
+}
+
+.landing-page ul{
+    list-style-type: none;
+    padding-top: 20px ;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.landing-page button{
+    margin-top: 20px;
 }
 
 #view-source-code-project{
-    background-color: skyblue;
+    background-color: red;
     border: 1px;
-    border-radius: 6px;
-    height: 50px;
-    width: 150px;
-    margin-top: 20px;
+    border-radius: 5px;
+    height: 60px;
+    width: 140px;
     align-items: center;
+}
+
+#view-source-code-project a{
+    color: #F9FAF8;
+    text-decoration: none;
+    align-items: center;
+}
+
+.projects-footer footer{
+    padding-top: 0px;
+    padding-bottom: 5px;
 }
