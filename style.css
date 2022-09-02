@@ -206,6 +206,8 @@ footer{
     height: 60px;
     width: 140px;
     align-items: center;
+    cursor: pointer;
+    color: #F9FAF8;
 }
 
 #view-source-code-project a{
