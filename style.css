@@ -44,7 +44,9 @@ header{
     color: #F9FAF8;
     border-radius: 6px;
     font-size: 16px;
-
+    font-size: 18px;
+    font-style: bold;
+    cursor: pointer;
 }
 
 .right-header-links a:hover{
