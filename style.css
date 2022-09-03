@@ -20,6 +20,11 @@ header{
 .left-header-logo a{
     text-decoration: none;
     color: #F9FAF8;
+    transition: ease-out 0.3s;
+}
+
+.left-header-logo a:hover{
+    color: #f9e586;
 }
 
 .right-header-links ul{
@@ -60,6 +65,14 @@ header{
     justify-content: center;
     padding-top: 30vh;
     font-size: 20px;
+}
+
+.top-introduction-paragraph b:hover{
+    background-color: #f9e586;
+    padding: 3px;
+    border-bottom: 2px solid #f9e586;
+    cursor: pointer;
+    color: #1F2937;
 }
 
 footer{
@@ -104,6 +117,12 @@ footer{
     font-size: 20px;
     padding-top: 202px;
     border-radius: 8px;
+    transition: ease-out 0.3s;
+}
+
+.number-guessing-game:hover{
+    border: 2px solid #f9e586;
+    cursor: pointer;
 }
 
 .number-guessing-game h3{
@@ -130,6 +149,12 @@ footer{
     font-size: 20px;
     padding-top: 202px;
     border-radius: 8px;
+    transition: ease-out 0.3s;
+}
+
+.my-linux-setup:hover{
+    border: 2px solid #f9e586;
+    cursor: pointer;
 }
 
 .my-linux-setup h3{
@@ -156,6 +181,12 @@ footer{
     font-size: 20px;
     padding-top: 202px;
     border-radius: 8px;
+    transition: ease-out 0.3s;
+}
+
+.my-personal-website:hover{
+    border: 2px solid #f9e586;
+    cursor: pointer;
 }
 
 .my-personal-website h3{
@@ -182,6 +213,12 @@ footer{
     font-size: 20px;
     padding-top: 202px;
     border-radius: 8px;
+    transition: ease-out 0.3s;
+}
+
+.landing-page:hover{
+    border: 2px solid #f9e586;
+    cursor: pointer;
 }
 
 .landing-page h3{
@@ -201,13 +238,23 @@ footer{
 
 #view-source-code-project{
     background-color: red;
-    border: 1px;
+    border: none;
     border-radius: 5px;
     height: 60px;
     width: 140px;
     align-items: center;
+    font-size: 0.9rem;
     cursor: pointer;
     color: #F9FAF8;
+    box-shadow: inset 0 0 0 0 #f9e586;
+    transition: ease-out 0.3s;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#view-source-code-project:hover{
+    box-shadow: inset 140px 0 0 0 #f9e586;
+    color: #000;
+    cursor: pointer;
 }
 
 #view-source-code-project a{
