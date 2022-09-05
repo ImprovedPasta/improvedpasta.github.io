@@ -45,7 +45,7 @@ header{
     background-color: red;
     height: 50px;
     width: 100px;
-    border: 1px;
+    border: none;
     color: #F9FAF8;
     border-radius: 6px;
     font-size: 16px;
@@ -111,11 +111,10 @@ footer{
 /* .number-guessing-game */
 .number-guessing-game{
     border: 2px red solid;
-    height: 400px;
+    height: 498px;
     width: 600px;
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
-    padding-top: 202px;
     border-radius: 8px;
     transition: ease-out 0.3s;
 }
@@ -127,6 +126,7 @@ footer{
 
 .number-guessing-game h3{
     text-decoration: underline;
+    padding: 18px;
 }
 
 .number-guessing-game ul{
@@ -134,20 +134,26 @@ footer{
     padding-top: 20px;
     font-size: 17px;
     font-style: italic;
+    padding: 18px;
 }
 
 .number-guessing-game button{
     margin-top: 20px;
 }
 
+.number-guessing-game img{
+    width: 396px;
+    height: 250px;
+    border-radius: 8px;
+}
+
 /* my-linux-setup */
 .my-linux-setup{
     border: 2px red solid;
-    height: 400px;
+    height: 498px;
     width: 600px;
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
-    padding-top: 202px;
     border-radius: 8px;
     transition: ease-out 0.3s;
 }
@@ -158,6 +164,7 @@ footer{
 }
 
 .my-linux-setup h3{
+    padding: 18px;
     text-decoration: underline;
 }
 
@@ -166,6 +173,13 @@ footer{
     padding-top: 20px;
     font-size: 17px;
     font-style: italic;
+    padding: 18px;
+}
+
+.my-linux-setup img{
+    width: 398px;
+    height: 250px;
+    border-radius: 8px;
 }
 
 .my-linux-setup button{
@@ -175,11 +189,10 @@ footer{
 /* my-perosonal-website */
 .my-personal-website{
     border: 2px red solid;
-    height: 400px;
+    height: 498px;
     width: 600px;
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
-    padding-top: 202px;
     border-radius: 8px;
     transition: ease-out 0.3s;
 }
@@ -190,6 +203,7 @@ footer{
 }
 
 .my-personal-website h3{
+    padding: 18px;
     text-decoration: underline;
 }
 
@@ -198,6 +212,13 @@ footer{
     padding-top: 20px ;
     font-size: 17px;
     font-style: italic;
+    padding: 18px;
+}
+
+.my-personal-website img{
+    width: 398px;
+    height: 250px;
+    border-radius: 8px;
 }
 
 .my-personal-website button{
@@ -207,11 +228,10 @@ footer{
 /* landing-page */
 .landing-page{
     border: 2px red solid;
-    height: 400px;
+    height: 498px;
     width: 600px;
-    padding: 30px;
+    padding: 10px;
     font-size: 20px;
-    padding-top: 202px;
     border-radius: 8px;
     transition: ease-out 0.3s;
 }
@@ -222,6 +242,7 @@ footer{
 }
 
 .landing-page h3{
+    padding: 18px;
     text-decoration: underline;
 }
 
@@ -230,6 +251,13 @@ footer{
     padding-top: 20px ;
     font-size: 17px;
     font-style: italic;
+    padding: 18px;
+}
+
+.landing-page img{
+    width: 398px;
+    height: 250px;
+    border-radius: 8px;
 }
 
 .landing-page button{
@@ -267,3 +295,4 @@ footer{
     padding-top: 0px;
     padding-bottom: 5px;
 }
+
